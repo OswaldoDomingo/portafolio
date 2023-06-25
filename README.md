@@ -14,5 +14,5 @@
 - Calculadora de años de [Frontend Mentor](https://oswaldodomingo.com/portafolio/age-calculator/index.html)
     - HTML, CSS, javaScript, @media
 
-- Página tres columnas de [Frontend Mentor](https://oswaldodomingo.com/portafolio/tarjeta/index.html)
+- Página tres columnas de [Frontend Mentor](https://oswaldodomingo.com/portafolio/3-column-card/index.html)
     - HTML, CSS, @media
