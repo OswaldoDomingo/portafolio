@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+}
+
+.contenedor {
+    border-radius: 20px;
+    width: auto;
+}
+
+.cabecera {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.cabecera-titulo {
+    font-family: PT Serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    text-align: center;
+}
+.quien{
+    width: 400px;
+}
+.quien-titulo {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.quien-parrafo {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.contenedor-tarjeta {
+    width: 264px;
+    height: 383px;
+    margin: auto 30px;
+}
+
+.tarjeta {
+    display: flex;
+}
+
+.contenedor-tarjeta:nth-child(2),
+.contenedor-tarjeta:nth-child(5) {
+    margin-top: 99px;
+}
+
+img {
+    width: 238px;
+    height: 341px;
+}
+
+.tarjeta-oficio {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-family: PT Serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.tarjeta-nombre {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@media (max-width: 1150px) {
+    .contenedor{
+        max-width: 450px;
+        min-width: 450px;
+    }
+
+    .cabecera{
+        grid-template-columns: 1fr;
+    }
+
+    .cabecera-titulo {
+        font-family: PT Serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .quien-titulo {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .quien-parrafo {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .team {
+        gap: 10px;
+    }
+
+    .contenedor-tarjeta {
+        width: 156px;
+        height: 237px;
+    }
+
+    img {
+        width: 138px;
+        height: 209px;
+    }
+
+    .tarjeta-oficio {
+        font-family: PT Serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .tarjeta-nombre {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .contenedor-tarjeta:nth-child(5) {
+        margin-top: 0px;
+    }
+
+    .contenedor-tarjeta:nth-child(2),
+    .contenedor-tarjeta:nth-child(4),
+    .contenedor-tarjeta:nth-child(6) {
+        margin-top: 99px;
+    }
+
+}
