@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1440px;
+}
+.cabecera, .receta{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.cabecera-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 969px;
+}
+.cabecera-parrafo {
+    display: flex;
+}
+
+.cabecera-parrafo-texto {
+    display: flex;
+    width: 592px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.cabecera-parrafo-svg {
+    display: flex;
+    width: 30px;
+    height: 8px;
+    padding: 2px 5px;
+    color: silver;
+    rotate: 270deg;
+
+}
+
+.cabecera-titulo {
+    color: #000;
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.cabecera-parrafo {
+    display: flex;
+    justify-content: center;
+    color: var(--gray-2, #4F4F4F);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+
+}
+
+.cabecera-imagen {
+    width: 969px;
+    height: 444px;
+    border-radius: 12px;
+    background-image: url(photo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.receta {
+    width: 969px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+
+.ingredientes,
+.instrucciones {
+    font-family: Playfair Display;
+    width: 637px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.ingredientes {
+    font-weight: 700;
+}
+
+.subtitulo-receta {
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contenedor-ingrediente {
+    display: flex;
+    margin-top: 10px;
+}
+
+.caja {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.ingredientes-texto {
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 554px;
+}
+
+.negrita {
+    font-weight: 700;
+}
+
+.instrucciones {
+    margin-top: 30px;
+}
+
+.caja-naranja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    margin-right: 15px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: white;
+    background-color: #F2994A;
+
+}
+
+.instrucciones-texto {
+    width: 528px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.caja-naranja>p {
+    margin-top: -6px;
+}
+
+.pie {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BDBDBD;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tiempos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid silver;
+    width: 216px;
+    height: 367px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px silver;
+
+}
+
+.tiempos-caja {
+    display: flex;
+    justify-content: space-between;
+
+    width: 120px;
+    height: 42px;
+}
+
+.tiempos-caja-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 82px;
+    height: 40px;
+
+}
+
+.tiempos-caja-icono {
+    width: 40px;
+    height: 40px;
+    /* margin-right: 20px; */
+}
+
+.tiempos-caja-texto-titulo {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    color: #BDBDBD;
+}
+
+.tiempos-caja-texto-texto {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.material-icons {
+    font-size: 30px !important;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 0px auto;
+        width: 600px;
+    }
+    .cabecera, .receta{
+        width: 600px;
+      
+    }
+    .cabecera {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cabecera-parrafo{
+        width: 600px;
+    }
+
+    .cabecera-titulo {
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .cabecera-parrafo-texto {
+        width: 345px;
+        height: 88px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .cabecera-imagen {
+        width: 352px;
+        height: 213px;
+    }
+    .cabecera-textos{
+        align-items: center;
+    }
+
+    .receta {
+        width: 400px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .instrucciones{
+        width: 400px;
+    }
+    .instrucciones-texto {
+        width: 300px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+    }
+    .tiempos{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: none;
+        box-shadow: none; 
+        width: 400px;
+        height: 200px;     
+    }
+    .tiempos-caja:nth-child(1){
+
+        width: 131px;
+        margin-right: 200px;
+        margin-left: 0px;
+    }
+    .tiempos-caja{
+        width: 121px;
+    }
+    .ingredientes,.instrucciones, .ingredientes-texto{
+    font-size: 14px;
+}
+.caja{
+    margin-right: 0px;
+}
+.ingredientes-texto{
+    margin-left: 15px;
+}
+}
