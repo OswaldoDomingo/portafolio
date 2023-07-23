@@ -43,6 +43,7 @@ Movil
 Presente sus proyectos tomando una captura de pantalla o un gif. Intente contarles a los visitantes una historia sobre su proyecto respondiendo:
 
 - ¿Dónde puedo ver tu demo?
+- https://oswaldo.dev/portafolio/my-gallery-master/
 - ¿Cuál fue tu experiencia?
   - Era sencilla
 - ¿Qué has aprendido/mejorado?
