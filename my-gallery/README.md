@@ -36,8 +36,11 @@
 
 ## Overview
 Escritorio
+<br>
 ![screenshot](https://oswaldo.dev/portafolio/my-gallery-master/captura1.png)
+<br>
 Movil
+<br>
 ![screenshot](https://oswaldo.dev/portafolio/my-gallery-master/captura2.png)
 
 Presente sus proyectos tomando una captura de pantalla o un gif. Intente contarles a los visitantes una historia sobre su proyecto respondiendo:
