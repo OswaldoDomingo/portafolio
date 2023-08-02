@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;400&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+}
+/* @media (min-width: 800px) and (max-width: 1440px) {
+    .cuerpo{
+        display: flex;
+    }
+  } */
+.contenedor {
+    width: 1440px;
+    background-color: black;
+    color: white;
+    height: 1000px;
+}
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecera-boton {
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.cabecera-boton>p {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    font-family: Crimson Pro;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.cabecera-navegador {
+    width: 100%;
+}
+
+.cabecera-navegador-lista {
+    display: block;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.cabecera-navegador ul {
+    list-style: none;
+    display: flex;
+}
+
+.cabecera-navegador ul li {
+    margin: 20px;
+}
+
+.cabecera-navegador ul li a {
+    text-decoration: none;
+    color: white
+}
+.cabecera-navegador ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 1em;
+    
+}
+.cabecera-navegador-boton {
+    display: none;
+}
+
+.cruz {
+    display: none;
+}
+.cuerpo{
+    display: flex;
+    height: 100vh;
+    margin-top: 100px;
+}
+.cuerpo-textos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    
+}
+.cuerpo-textos-cabecera {
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 61px;
+    letter-spacing: 0em;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.cuerpo-textos-entrada {
+    width: 410px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-bottom: 80px;
+    margin-right: 180px;
+
+}
+
+.cuerpo-textos-pie {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 39px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+
+}
+
+span {
+    display: inline-block;
+}
+
+.cuerpo-imagen {
+    margin-left: 12px;
+    margin-right: 30px;
+}
+
+.cuerpo-imagen-principal {
+    width: 737px;
+    height: 555px;
+    background-image: url(photo1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cuerpo-imagen-persona{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    width: 410px;
+    height: 189px;
+    bottom: 80px;
+    left: 299px;
+}
+.cuerpo-imagen-persona-cabecera{
+    display: flex;
+}
+.cuerpo-imagen-persona-logo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 72px;
+}
+.cuerpo-imagen-persona-logo img{
+    width: 50px;
+    border-radius: 100%;
+}
+
+.cuerpo-imagen-persona-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.cuerpo-imagen-persona-texto-nombre {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.cuerpo-imagen-persona-texto-oficio {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+}
+
+.cuerpo-imagen-persona-texto-pie {
+    width: 190px;
+    font-family: Lora;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    margin-left: 20px;
+    /* text-align: left; */
+}
+
+@media (max-width: 800px) {
+
+    /*Cabecera*/
+    .cabecera {
+        align-items: flex-start;
+    }
+
+    .contenedor {
+        background-color: rgb(0, 0, 0);
+        width: 375px;
+        height: 800px;
+    }
+
+    .cabecera-boton {
+        margin-left: 15px;
+        margin-bottom: 47px;
+    }
+
+    .cabecera-navegador-boton {
+        display: flex;
+        justify-content: right;
+        margin-right: 10px;
+        font-size: 40px;
+    }
+
+    .cabecera-navegador-lista {
+        display: none;
+        justify-content: center;
+
+    }
+
+    .cabecera-navegador-lista ul {
+        flex-direction: column;
+
+    }
+
+    /*Cuerpo*/
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuerpo-textos {
+        margin-left: 10px;
+    }
+
+    .cuerpo-textos-cabecera {
+        margin-bottom: 39px;
+    }
+
+    .cuerpo-textos-entrada {
+        margin-bottom: 39px;
+    }
+
+    .cuerpo-imagen-principal {
+        width: 351px;
+        height: 264px;
+    }
+
+    .cuerpo-imagen-persona {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 50px;
+        left: 40px;
+        background-color: rgb(0, 0, 0);
+        width: 300px;
+        height: 138px;
+    }
+
+    .cuerpo-imagen-persona-logo>img {
+        width: 39px;
+        height: 39px;
+        border-radius: 100%;
+        margin: 20px;
+    }
+
+    .cuerpo-imagen-persona-texto {
+        width: 100%;
+        margin: 20px;
+
+    }
+    .cuerpo-imagen-persona-texto-pie {
+        margin-left: 20px;
+        width: 190px;
+    }
+
+    /*  */
+}
